@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CustomerController {
     @GetMapping
     public String testUrl(){
-        return "Customer feature works...";
+        return "Updated customers response after merge in customers branch";
     }
 }
